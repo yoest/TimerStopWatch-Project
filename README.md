@@ -1,6 +1,6 @@
 Code quality: ![Maven Build](https://github.com/tommens/calculator-cucumber/actions/workflows/maven.yml/badge.svg)
 
-# TimerStopwatch
+# TimerStopWatch-Project
 Java implementation of a statechart with Timer and Stopwatch functionality.
 This repository contains a simple example used for teaching purposes by Tom Mens at the University of Mons.
 The example is an event-based application for a timer and stopwatch. It can be controlled through 3 buttons/events.
