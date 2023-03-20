@@ -45,4 +45,3 @@ jobs:
         -Dsonar.organization=yoest
         -Dsonar.projectKey=yoest_TimerStopWatch-Project
         -Dsonar.branch.name=main
-        -Dsonar.login=$SONARTOKEN
