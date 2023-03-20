@@ -34,24 +34,3 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: ScaCap/action-surefire-report@48452168d92461c5ded1ca1afe210e4a99f32d33
       uses: ScaCap/action-surefire-report@v1.7.0
-      with:
-        # GITHUB_TOKEN
-        github_token: # default is ${{ github.token }}
-        # surefire/failsafe/junit compatible xml report paths in glob format
-        report_paths: # optional, default is **/surefire-reports/TEST-*.xml, **/failsafe-reports/TEST-*.xml
-        # create a new check with annotations
-        create_check: # optional, default is true
-        # check name for test reports
-        check_name: # optional, default is Test Report
-        # commit sha to update the status
-        commit: # optional
-        # fail run if there were test failures
-        fail_on_test_failures: # optional, default is false
-        # fail run if there were no test results found
-        fail_if_no_tests: # optional, default is true
-        # skip test report publishing
-        skip_publishing: # optional, default is false
-        # get filename from stack trace
-        file_name_in_stack_trace: # optional, default is false
-        # if you use Github Enterprise, you can set this to the URL of your server (e.g. https://github.myorg.com/api/v3)
-        github_base_url: # optional, default is 
